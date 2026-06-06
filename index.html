@@ -1170,6 +1170,17 @@ window.addEventListener('scroll', () => {
 
 
 
+
+<script>
+function showSuccessMessage() {
+  const form = document.getElementById('booking-form');
+  const successDiv = document.getElementById('booking-success');
+  if(form && successDiv) {
+      form.style.display = 'none';
+      successDiv.style.display = 'flex';
+  }
+}
+</script>
 </body>
 
 </html>
